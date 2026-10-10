@@ -1,0 +1,28 @@
+======================================================================
+              SECURITY OPERATIONS CENTER (SOC) INCIDENT REPORT
+======================================================================
+Generated: 2026-10-09 23:05:08
+Total Threats Intercepted: 100
+
+1. ALERT SEVERITY DISTRIBUTION:
+----------------------------------------
+   - HIGH        : 50 events (50.0%)
+   - MEDIUM      : 35 events (35.0%)
+   - CRITICAL    : 15 events (15.0%)
+
+2. ATTACK VECTOR BREAKDOWN:
+----------------------------------------
+   - PORT_SCAN                   : 30 events
+   - BRUTE_FORCE_SSH             : 30 events
+   - DOS_SYN_FLOOD               : 25 events
+   - DATA_EXFILTRATION           : 15 events
+
+3. TOP MALICIOUS OFFENDING IPs:
+----------------------------------------
+   - 194.26.29.11        : 60 malicious connections
+   - 185.190.140.22      : 25 malicious connections
+   - 192.168.1.45        : 15 malicious connections
+
+======================================================================
+END OF SOC INCIDENT REPORT
+======================================================================

@@ -1,0 +1,2002 @@
+[
+    {
+        "alert_id": "SOC-SEC-1001",
+        "timestamp": "2026-10-09 21:56:57",
+        "severity": "MEDIUM",
+        "risk_score": 58,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 42.4,
+        "source_ip": "194.26.29.11",
+        "source_port": 42915,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 3389,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1002",
+        "timestamp": "2026-10-09 21:56:59",
+        "severity": "MEDIUM",
+        "risk_score": 55,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 26.4,
+        "source_ip": "194.26.29.11",
+        "source_port": 55926,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 53,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1003",
+        "timestamp": "2026-10-09 21:57:01",
+        "severity": "MEDIUM",
+        "risk_score": 58,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 40.8,
+        "source_ip": "194.26.29.11",
+        "source_port": 58223,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 3306,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1004",
+        "timestamp": "2026-10-09 21:57:03",
+        "severity": "MEDIUM",
+        "risk_score": 59,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 46.5,
+        "source_ip": "194.26.29.11",
+        "source_port": 56912,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 3389,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1005",
+        "timestamp": "2026-10-09 21:57:05",
+        "severity": "MEDIUM",
+        "risk_score": 55,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 27.3,
+        "source_ip": "194.26.29.11",
+        "source_port": 41435,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 53,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1006",
+        "timestamp": "2026-10-09 21:57:07",
+        "severity": "MEDIUM",
+        "risk_score": 56,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 31.9,
+        "source_ip": "194.26.29.11",
+        "source_port": 50004,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 135,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1007",
+        "timestamp": "2026-10-09 21:57:09",
+        "severity": "MEDIUM",
+        "risk_score": 55,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 27.3,
+        "source_ip": "194.26.29.11",
+        "source_port": 44251,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1008",
+        "timestamp": "2026-10-09 21:57:11",
+        "severity": "MEDIUM",
+        "risk_score": 56,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 33.4,
+        "source_ip": "194.26.29.11",
+        "source_port": 57075,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 23,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1009",
+        "timestamp": "2026-10-09 21:57:13",
+        "severity": "MEDIUM",
+        "risk_score": 56,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 33.1,
+        "source_ip": "194.26.29.11",
+        "source_port": 45285,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 25,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1010",
+        "timestamp": "2026-10-09 21:57:15",
+        "severity": "MEDIUM",
+        "risk_score": 56,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 31.3,
+        "source_ip": "194.26.29.11",
+        "source_port": 51773,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 25,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1011",
+        "timestamp": "2026-10-09 21:57:17",
+        "severity": "MEDIUM",
+        "risk_score": 55,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 27.6,
+        "source_ip": "194.26.29.11",
+        "source_port": 54547,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 21,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1012",
+        "timestamp": "2026-10-09 21:57:19",
+        "severity": "MEDIUM",
+        "risk_score": 56,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 30.1,
+        "source_ip": "194.26.29.11",
+        "source_port": 46570,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 53,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1013",
+        "timestamp": "2026-10-09 21:57:21",
+        "severity": "MEDIUM",
+        "risk_score": 54,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 24.3,
+        "source_ip": "194.26.29.11",
+        "source_port": 56626,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 25,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1014",
+        "timestamp": "2026-10-09 21:57:23",
+        "severity": "MEDIUM",
+        "risk_score": 60,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 54.0,
+        "source_ip": "194.26.29.11",
+        "source_port": 57049,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 8080,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1015",
+        "timestamp": "2026-10-09 21:57:25",
+        "severity": "MEDIUM",
+        "risk_score": 55,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 28.0,
+        "source_ip": "194.26.29.11",
+        "source_port": 45275,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 139,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1016",
+        "timestamp": "2026-10-09 21:57:27",
+        "severity": "MEDIUM",
+        "risk_score": 55,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 25.6,
+        "source_ip": "194.26.29.11",
+        "source_port": 44545,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 23,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1017",
+        "timestamp": "2026-10-09 21:57:29",
+        "severity": "MEDIUM",
+        "risk_score": 56,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 32.3,
+        "source_ip": "194.26.29.11",
+        "source_port": 41973,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 21,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1018",
+        "timestamp": "2026-10-09 21:57:31",
+        "severity": "MEDIUM",
+        "risk_score": 59,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 46.6,
+        "source_ip": "194.26.29.11",
+        "source_port": 48860,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 3389,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1019",
+        "timestamp": "2026-10-09 21:57:33",
+        "severity": "MEDIUM",
+        "risk_score": 58,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 43.2,
+        "source_ip": "194.26.29.11",
+        "source_port": 46036,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 1433,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1020",
+        "timestamp": "2026-10-09 21:57:35",
+        "severity": "MEDIUM",
+        "risk_score": 55,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 29.5,
+        "source_ip": "194.26.29.11",
+        "source_port": 49309,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 445,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1021",
+        "timestamp": "2026-10-09 21:57:37",
+        "severity": "MEDIUM",
+        "risk_score": 56,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 30.7,
+        "source_ip": "194.26.29.11",
+        "source_port": 46068,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 53,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1022",
+        "timestamp": "2026-10-09 21:57:39",
+        "severity": "MEDIUM",
+        "risk_score": 54,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 24.7,
+        "source_ip": "194.26.29.11",
+        "source_port": 44574,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 21,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1023",
+        "timestamp": "2026-10-09 21:57:41",
+        "severity": "MEDIUM",
+        "risk_score": 56,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 30.0,
+        "source_ip": "194.26.29.11",
+        "source_port": 45996,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 80,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1024",
+        "timestamp": "2026-10-09 21:57:43",
+        "severity": "MEDIUM",
+        "risk_score": 60,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 51.8,
+        "source_ip": "194.26.29.11",
+        "source_port": 44901,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 8080,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1025",
+        "timestamp": "2026-10-09 21:57:45",
+        "severity": "MEDIUM",
+        "risk_score": 56,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 30.3,
+        "source_ip": "194.26.29.11",
+        "source_port": 57769,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 139,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1026",
+        "timestamp": "2026-10-09 21:57:47",
+        "severity": "MEDIUM",
+        "risk_score": 55,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 25.6,
+        "source_ip": "194.26.29.11",
+        "source_port": 46043,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 25,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1027",
+        "timestamp": "2026-10-09 21:57:49",
+        "severity": "MEDIUM",
+        "risk_score": 54,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 24.2,
+        "source_ip": "194.26.29.11",
+        "source_port": 51514,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 110,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1028",
+        "timestamp": "2026-10-09 21:57:51",
+        "severity": "MEDIUM",
+        "risk_score": 59,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 46.1,
+        "source_ip": "194.26.29.11",
+        "source_port": 57641,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 3389,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1029",
+        "timestamp": "2026-10-09 21:57:53",
+        "severity": "MEDIUM",
+        "risk_score": 60,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 52.8,
+        "source_ip": "194.26.29.11",
+        "source_port": 55733,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 8080,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1030",
+        "timestamp": "2026-10-09 21:57:55",
+        "severity": "MEDIUM",
+        "risk_score": 56,
+        "threat_classification": "PORT_SCAN",
+        "confidence_score": 100.0,
+        "anomaly_severity": 33.2,
+        "source_ip": "194.26.29.11",
+        "source_port": 46221,
+        "destination_ip": "10.0.0.8",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Reconnaissance (TA0043) / Discovery (TA0007)",
+            "technique": "Network Service Discovery",
+            "technique_id": "T1046"
+        },
+        "soc_recommended_action": "Blacklist probing IP on boundary firewall, inspect host logs for follow-up exploitation attempts."
+    },
+    {
+        "alert_id": "SOC-SEC-1031",
+        "timestamp": "2026-10-09 21:57:57",
+        "severity": "HIGH",
+        "risk_score": 71,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 33.0,
+        "source_ip": "194.26.29.11",
+        "source_port": 42589,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1032",
+        "timestamp": "2026-10-09 21:57:59",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 25.5,
+        "source_ip": "194.26.29.11",
+        "source_port": 44242,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1033",
+        "timestamp": "2026-10-09 21:58:01",
+        "severity": "HIGH",
+        "risk_score": 71,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 33.0,
+        "source_ip": "194.26.29.11",
+        "source_port": 42037,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1034",
+        "timestamp": "2026-10-09 21:58:03",
+        "severity": "MEDIUM",
+        "risk_score": 69,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 24.6,
+        "source_ip": "194.26.29.11",
+        "source_port": 48147,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1035",
+        "timestamp": "2026-10-09 21:58:05",
+        "severity": "HIGH",
+        "risk_score": 71,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 34.9,
+        "source_ip": "194.26.29.11",
+        "source_port": 46232,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1036",
+        "timestamp": "2026-10-09 21:58:07",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 26.8,
+        "source_ip": "194.26.29.11",
+        "source_port": 49706,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1037",
+        "timestamp": "2026-10-09 21:58:09",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 27.1,
+        "source_ip": "194.26.29.11",
+        "source_port": 52321,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1038",
+        "timestamp": "2026-10-09 21:58:11",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 29.9,
+        "source_ip": "194.26.29.11",
+        "source_port": 48447,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1039",
+        "timestamp": "2026-10-09 21:58:13",
+        "severity": "HIGH",
+        "risk_score": 72,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 37.1,
+        "source_ip": "194.26.29.11",
+        "source_port": 47752,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1040",
+        "timestamp": "2026-10-09 21:58:15",
+        "severity": "HIGH",
+        "risk_score": 71,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 32.6,
+        "source_ip": "194.26.29.11",
+        "source_port": 46972,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1041",
+        "timestamp": "2026-10-09 21:58:17",
+        "severity": "HIGH",
+        "risk_score": 71,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 33.4,
+        "source_ip": "194.26.29.11",
+        "source_port": 43927,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1042",
+        "timestamp": "2026-10-09 21:58:19",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 26.9,
+        "source_ip": "194.26.29.11",
+        "source_port": 48842,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1043",
+        "timestamp": "2026-10-09 21:58:21",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 28.3,
+        "source_ip": "194.26.29.11",
+        "source_port": 35693,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1044",
+        "timestamp": "2026-10-09 21:58:23",
+        "severity": "MEDIUM",
+        "risk_score": 69,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 22.8,
+        "source_ip": "194.26.29.11",
+        "source_port": 54400,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1045",
+        "timestamp": "2026-10-09 21:58:25",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 28.5,
+        "source_ip": "194.26.29.11",
+        "source_port": 37331,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1046",
+        "timestamp": "2026-10-09 21:58:27",
+        "severity": "HIGH",
+        "risk_score": 72,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 36.8,
+        "source_ip": "194.26.29.11",
+        "source_port": 37969,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1047",
+        "timestamp": "2026-10-09 21:58:29",
+        "severity": "HIGH",
+        "risk_score": 71,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 30.8,
+        "source_ip": "194.26.29.11",
+        "source_port": 49242,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1048",
+        "timestamp": "2026-10-09 21:58:31",
+        "severity": "MEDIUM",
+        "risk_score": 68,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 18.7,
+        "source_ip": "194.26.29.11",
+        "source_port": 41645,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1049",
+        "timestamp": "2026-10-09 21:58:33",
+        "severity": "HIGH",
+        "risk_score": 71,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 33.7,
+        "source_ip": "194.26.29.11",
+        "source_port": 35421,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1050",
+        "timestamp": "2026-10-09 21:58:35",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 27.6,
+        "source_ip": "194.26.29.11",
+        "source_port": 47348,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1051",
+        "timestamp": "2026-10-09 21:58:37",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 29.0,
+        "source_ip": "194.26.29.11",
+        "source_port": 37794,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1052",
+        "timestamp": "2026-10-09 21:58:39",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 27.3,
+        "source_ip": "194.26.29.11",
+        "source_port": 52018,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1053",
+        "timestamp": "2026-10-09 21:58:41",
+        "severity": "HIGH",
+        "risk_score": 71,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 30.4,
+        "source_ip": "194.26.29.11",
+        "source_port": 41821,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1054",
+        "timestamp": "2026-10-09 21:58:43",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 28.6,
+        "source_ip": "194.26.29.11",
+        "source_port": 36294,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1055",
+        "timestamp": "2026-10-09 21:58:45",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 27.4,
+        "source_ip": "194.26.29.11",
+        "source_port": 46926,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1056",
+        "timestamp": "2026-10-09 21:58:47",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 26.8,
+        "source_ip": "194.26.29.11",
+        "source_port": 53863,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1057",
+        "timestamp": "2026-10-09 21:58:49",
+        "severity": "MEDIUM",
+        "risk_score": 69,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 20.5,
+        "source_ip": "194.26.29.11",
+        "source_port": 39339,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1058",
+        "timestamp": "2026-10-09 21:58:51",
+        "severity": "MEDIUM",
+        "risk_score": 69,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 24.5,
+        "source_ip": "194.26.29.11",
+        "source_port": 35701,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1059",
+        "timestamp": "2026-10-09 21:58:53",
+        "severity": "HIGH",
+        "risk_score": 71,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 32.8,
+        "source_ip": "194.26.29.11",
+        "source_port": 43621,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1060",
+        "timestamp": "2026-10-09 21:58:55",
+        "severity": "HIGH",
+        "risk_score": 70,
+        "threat_classification": "BRUTE_FORCE_SSH",
+        "confidence_score": 100.0,
+        "anomaly_severity": 25.1,
+        "source_ip": "194.26.29.11",
+        "source_port": 39517,
+        "destination_ip": "10.0.0.20",
+        "destination_port": 22,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Credential Access (TA0006)",
+            "technique": "Brute Force: Password Guessing",
+            "technique_id": "T1110.001"
+        },
+        "soc_recommended_action": "Trigger fail2ban IP jail, enforce multi-factor authentication (MFA), disable password authentication for SSH."
+    },
+    {
+        "alert_id": "SOC-SEC-1061",
+        "timestamp": "2026-10-09 21:58:57",
+        "severity": "CRITICAL",
+        "risk_score": 89,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 78.0,
+        "source_ip": "192.168.1.45",
+        "source_port": 55451,
+        "destination_ip": "45.33.32.35",
+        "destination_port": 4444,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1062",
+        "timestamp": "2026-10-09 21:58:59",
+        "severity": "CRITICAL",
+        "risk_score": 88,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 71.4,
+        "source_ip": "192.168.1.45",
+        "source_port": 64293,
+        "destination_ip": "45.33.32.21",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1063",
+        "timestamp": "2026-10-09 21:59:01",
+        "severity": "CRITICAL",
+        "risk_score": 89,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 78.7,
+        "source_ip": "192.168.1.45",
+        "source_port": 61374,
+        "destination_ip": "45.33.32.73",
+        "destination_port": 8443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1064",
+        "timestamp": "2026-10-09 21:59:03",
+        "severity": "CRITICAL",
+        "risk_score": 90,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 83.7,
+        "source_ip": "192.168.1.45",
+        "source_port": 53645,
+        "destination_ip": "45.33.32.82",
+        "destination_port": 8443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1065",
+        "timestamp": "2026-10-09 21:59:05",
+        "severity": "CRITICAL",
+        "risk_score": 90,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 81.6,
+        "source_ip": "192.168.1.45",
+        "source_port": 53250,
+        "destination_ip": "45.33.32.19",
+        "destination_port": 8443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1066",
+        "timestamp": "2026-10-09 21:59:07",
+        "severity": "CRITICAL",
+        "risk_score": 89,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 75.2,
+        "source_ip": "192.168.1.45",
+        "source_port": 56753,
+        "destination_ip": "45.33.32.11",
+        "destination_port": 4444,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1067",
+        "timestamp": "2026-10-09 21:59:09",
+        "severity": "CRITICAL",
+        "risk_score": 90,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 81.0,
+        "source_ip": "192.168.1.45",
+        "source_port": 49990,
+        "destination_ip": "45.33.32.25",
+        "destination_port": 8443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1068",
+        "timestamp": "2026-10-09 21:59:11",
+        "severity": "CRITICAL",
+        "risk_score": 90,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 80.4,
+        "source_ip": "192.168.1.45",
+        "source_port": 61892,
+        "destination_ip": "45.33.32.10",
+        "destination_port": 8443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1069",
+        "timestamp": "2026-10-09 21:59:13",
+        "severity": "CRITICAL",
+        "risk_score": 90,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 80.7,
+        "source_ip": "192.168.1.45",
+        "source_port": 49316,
+        "destination_ip": "45.33.32.30",
+        "destination_port": 8443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1070",
+        "timestamp": "2026-10-09 21:59:15",
+        "severity": "CRITICAL",
+        "risk_score": 90,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 81.3,
+        "source_ip": "192.168.1.45",
+        "source_port": 55404,
+        "destination_ip": "45.33.32.35",
+        "destination_port": 4444,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1071",
+        "timestamp": "2026-10-09 21:59:17",
+        "severity": "CRITICAL",
+        "risk_score": 88,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 74.9,
+        "source_ip": "192.168.1.45",
+        "source_port": 52574,
+        "destination_ip": "45.33.32.64",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1072",
+        "timestamp": "2026-10-09 21:59:19",
+        "severity": "CRITICAL",
+        "risk_score": 90,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 83.2,
+        "source_ip": "192.168.1.45",
+        "source_port": 64051,
+        "destination_ip": "45.33.32.58",
+        "destination_port": 8443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1073",
+        "timestamp": "2026-10-09 21:59:21",
+        "severity": "CRITICAL",
+        "risk_score": 89,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 78.8,
+        "source_ip": "192.168.1.45",
+        "source_port": 58344,
+        "destination_ip": "45.33.32.22",
+        "destination_port": 4444,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1074",
+        "timestamp": "2026-10-09 21:59:23",
+        "severity": "CRITICAL",
+        "risk_score": 90,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 81.5,
+        "source_ip": "192.168.1.45",
+        "source_port": 58641,
+        "destination_ip": "45.33.32.29",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1075",
+        "timestamp": "2026-10-09 21:59:25",
+        "severity": "CRITICAL",
+        "risk_score": 90,
+        "threat_classification": "DATA_EXFILTRATION",
+        "confidence_score": 100.0,
+        "anomaly_severity": 81.4,
+        "source_ip": "192.168.1.45",
+        "source_port": 64977,
+        "destination_ip": "45.33.32.53",
+        "destination_port": 4444,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Exfiltration (TA0010)",
+            "technique": "Exfiltration Over Asymmetric Encrypted Channel",
+            "technique_id": "T1048.003"
+        },
+        "soc_recommended_action": "IMMEDIATELY isolate endpoint from internal LAN, terminate active TCP socket, initiate forensic memory triage."
+    },
+    {
+        "alert_id": "SOC-SEC-1076",
+        "timestamp": "2026-10-09 21:59:27",
+        "severity": "HIGH",
+        "risk_score": 74,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 30.2,
+        "source_ip": "185.190.140.22",
+        "source_port": 17036,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 80,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1077",
+        "timestamp": "2026-10-09 21:59:29",
+        "severity": "HIGH",
+        "risk_score": 75,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 35.0,
+        "source_ip": "185.190.140.22",
+        "source_port": 7980,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 80,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1078",
+        "timestamp": "2026-10-09 21:59:31",
+        "severity": "HIGH",
+        "risk_score": 75,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 37.9,
+        "source_ip": "185.190.140.22",
+        "source_port": 13021,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 80,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1079",
+        "timestamp": "2026-10-09 21:59:33",
+        "severity": "HIGH",
+        "risk_score": 76,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 40.0,
+        "source_ip": "185.190.140.22",
+        "source_port": 12713,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1080",
+        "timestamp": "2026-10-09 21:59:35",
+        "severity": "HIGH",
+        "risk_score": 73,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 28.1,
+        "source_ip": "185.190.140.22",
+        "source_port": 62472,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1081",
+        "timestamp": "2026-10-09 21:59:37",
+        "severity": "HIGH",
+        "risk_score": 76,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 42.3,
+        "source_ip": "185.190.140.22",
+        "source_port": 31266,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1082",
+        "timestamp": "2026-10-09 21:59:39",
+        "severity": "HIGH",
+        "risk_score": 75,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 37.5,
+        "source_ip": "185.190.140.22",
+        "source_port": 5455,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1083",
+        "timestamp": "2026-10-09 21:59:41",
+        "severity": "HIGH",
+        "risk_score": 75,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 38.6,
+        "source_ip": "185.190.140.22",
+        "source_port": 48521,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 80,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1084",
+        "timestamp": "2026-10-09 21:59:43",
+        "severity": "HIGH",
+        "risk_score": 73,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 28.4,
+        "source_ip": "185.190.140.22",
+        "source_port": 56866,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1085",
+        "timestamp": "2026-10-09 21:59:45",
+        "severity": "HIGH",
+        "risk_score": 74,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 30.8,
+        "source_ip": "185.190.140.22",
+        "source_port": 13829,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1086",
+        "timestamp": "2026-10-09 21:59:47",
+        "severity": "HIGH",
+        "risk_score": 73,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 27.6,
+        "source_ip": "185.190.140.22",
+        "source_port": 50839,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 80,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1087",
+        "timestamp": "2026-10-09 21:59:49",
+        "severity": "HIGH",
+        "risk_score": 75,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 38.5,
+        "source_ip": "185.190.140.22",
+        "source_port": 45688,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1088",
+        "timestamp": "2026-10-09 21:59:51",
+        "severity": "HIGH",
+        "risk_score": 76,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 44.0,
+        "source_ip": "185.190.140.22",
+        "source_port": 18915,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1089",
+        "timestamp": "2026-10-09 21:59:53",
+        "severity": "HIGH",
+        "risk_score": 75,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 38.1,
+        "source_ip": "185.190.140.22",
+        "source_port": 53093,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 80,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1090",
+        "timestamp": "2026-10-09 21:59:55",
+        "severity": "HIGH",
+        "risk_score": 73,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 26.5,
+        "source_ip": "185.190.140.22",
+        "source_port": 43498,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1091",
+        "timestamp": "2026-10-09 21:59:57",
+        "severity": "HIGH",
+        "risk_score": 73,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 26.8,
+        "source_ip": "185.190.140.22",
+        "source_port": 55648,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 80,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1092",
+        "timestamp": "2026-10-09 21:59:59",
+        "severity": "HIGH",
+        "risk_score": 73,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 28.5,
+        "source_ip": "185.190.140.22",
+        "source_port": 37490,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 80,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1093",
+        "timestamp": "2026-10-09 22:00:01",
+        "severity": "HIGH",
+        "risk_score": 74,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 33.2,
+        "source_ip": "185.190.140.22",
+        "source_port": 30857,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 80,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1094",
+        "timestamp": "2026-10-09 22:00:03",
+        "severity": "HIGH",
+        "risk_score": 74,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 30.1,
+        "source_ip": "185.190.140.22",
+        "source_port": 37808,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1095",
+        "timestamp": "2026-10-09 22:00:05",
+        "severity": "HIGH",
+        "risk_score": 73,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 28.8,
+        "source_ip": "185.190.140.22",
+        "source_port": 62879,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1096",
+        "timestamp": "2026-10-09 22:00:07",
+        "severity": "HIGH",
+        "risk_score": 73,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 26.8,
+        "source_ip": "185.190.140.22",
+        "source_port": 30175,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1097",
+        "timestamp": "2026-10-09 22:00:09",
+        "severity": "HIGH",
+        "risk_score": 73,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 27.0,
+        "source_ip": "185.190.140.22",
+        "source_port": 62210,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1098",
+        "timestamp": "2026-10-09 22:00:11",
+        "severity": "HIGH",
+        "risk_score": 73,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 29.9,
+        "source_ip": "185.190.140.22",
+        "source_port": 27533,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 80,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1099",
+        "timestamp": "2026-10-09 22:00:13",
+        "severity": "HIGH",
+        "risk_score": 73,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 29.4,
+        "source_ip": "185.190.140.22",
+        "source_port": 65155,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    },
+    {
+        "alert_id": "SOC-SEC-1100",
+        "timestamp": "2026-10-09 22:00:15",
+        "severity": "HIGH",
+        "risk_score": 73,
+        "threat_classification": "DOS_SYN_FLOOD",
+        "confidence_score": 100.0,
+        "anomaly_severity": 26.4,
+        "source_ip": "185.190.140.22",
+        "source_port": 44120,
+        "destination_ip": "10.0.0.5",
+        "destination_port": 443,
+        "protocol": "TCP",
+        "mitre_attack": {
+            "tactic": "Impact (TA0040)",
+            "technique": "Network Denial of Service: Direct Network Flood",
+            "technique_id": "T1498.001"
+        },
+        "soc_recommended_action": "Apply edge firewall rate-limiting, activate SYN Proxy / TCP SYN Cookies, null-route offending external IP."
+    }
+]
